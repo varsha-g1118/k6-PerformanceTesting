@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('verify xk6') {
+    stage('verify k6') {
       steps {
         sh 'xk6 version'
       }
